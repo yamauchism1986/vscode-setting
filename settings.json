@@ -1,0 +1,48 @@
+{
+  "window.zoomLevel": 0,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "vue-html": "html"
+  },
+  "emmet.syntaxProfiles": {
+    "html": {
+      "attr_quotes": "single"
+    },
+    "jsx": {
+      "self_closing_tag": true
+    }
+  },
+  // システムのclipboardにコピー
+  "vim.useSystemClipboard": true,
+  "vim.hlsearch": true,
+  // easymotion
+  "vim.leader": "<space>",
+  "vim.easymotion": true,
+  "vim.easymotionKeys": "sdfghjkl",
+  "vim.handleKeys": {
+    "<C-w>": false
+  },
+
+  "editor.formatOnSave": true,
+  "prettier.eslintIntegration": true,
+  "materialTheme.accent": "Remove accents",
+  "workbench.colorCustomizations": {},
+  "workbench.startupEditor": "newUntitledFile",
+
+  "ruby.lint": {
+    "reek": true,
+    "ruby": true, //Runs ruby -wc
+    "fasterer": true,
+    "debride": true,
+    "ruby-lint": true
+  },
+  "ruby.intellisense": "rubyLocate",
+  "ruby.codeCompletion": "rcodetools",
+  "ruby.useLanguageServer": true,
+  "ruby.locate": {
+    "exclude": "{**/@(test|spec|tmp|.*),**/@(test|spec|tmp|.*)/**,**/*_spec.rb}",
+    "include": "**/*.rb"
+  },
+  "rufo.exe": "rufo", // can be an absolute path
+  "rufo.useBundler": false
+}

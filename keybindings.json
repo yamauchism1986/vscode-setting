@@ -1,0 +1,60 @@
+[
+  {
+    "key": "ctrl+a",
+    "command": "workbench.action.terminal.focus",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+a",
+    "command": "workbench.action.focusFirstEditorGroup",
+    "when": "terminalFocus"
+  },
+  //focus to editor panel
+  {
+    "key": "ctrl+e",
+    "command": "workbench.action.focusFirstEditorGroup"
+  },
+  //focus to powershell panel
+  {
+    "key": "ctrl+t",
+    "command": "workbench.action.terminal.focus"
+  },
+  {
+    "key": "shift+space",
+    "command": "editor.emmet.action.expandAbbreviation",
+    "when": "config.emmet.triggerExpansionOnTab && editorTextFocus && !editorReadonly && !editorTabMovesFocus"
+  },
+  {
+    "key": "tab",
+    "command": "-editor.emmet.action.expandAbbreviation",
+    "when": "config.emmet.triggerExpansionOnTab && editorTextFocus && !editorReadonly && !editorTabMovesFocus"
+  },
+  {
+    "key": "ctrl+shift+space",
+    "command": "-editor.action.triggerParameterHints",
+    "when": "editorHasSignatureHelpProvider && editorTextFocus"
+  },
+  {
+    "key": "ctrl+shift+space",
+    "command": "editor.emmet.action.wrapWithAbbreviation"
+  },
+  {
+    "key": "shift+ctrl+a",
+    "command": "workbench.action.files.copyPathOfActiveFile",
+    "when": "editorTextFocus"
+  }
+  // {
+  //   "key": "ctrl+w",
+  //   "command": "-extension.vim_ctrl+w",
+  //   "when": "editorTextFocus && vim.active && vim.use<C-w> && !inDebugRepl"
+  // },
+  // {
+  //   "key": "ctrl+w",
+  //   "command": "-workbench.action.closeGroup",
+  //   "when": "activeEditorGroupEmpty && multipleEditorGroups"
+  // },
+  // {
+  //   "key": "ctrl+w",
+  //   "command": "-workbench.action.closeActiveEditor"
+  // }
+]
